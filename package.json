@@ -1,0 +1,11 @@
+{
+  "name": "regent",
+  "version": "1.0.0-alpha.1",
+  "description": "RegPack-like stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Khlynovskiy <subzey@gmail.com>",
+  "license": "WTFPL"
+}
