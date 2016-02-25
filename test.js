@@ -1,6 +1,6 @@
-var CharRange = require('./lib/regexpbody').CharRange;
+var regexpClassString = require('./lib/regexpclass').classString;
 
-var cr = new CharRange('');
-// console.log(cr.direct());
-// console.log('\n');
-console.log(cr._pool());
+console.log(regexpClassString([
+	{from: 0x5E, to: 0x60},
+	{from: 0x2D, to: 0x30},
+]));
