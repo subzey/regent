@@ -16,5 +16,5 @@ let subtractRanges = rangesGroupLib.subtractRanges;
 // ))
 
 
-let arr = rangesGroupLib.grinder('for(i=a.length;i--;)');
+let arr = rangesGroupLib.grinder('for(var i=a.length; i--;);');
 // arr.map(v => console.log(v));
